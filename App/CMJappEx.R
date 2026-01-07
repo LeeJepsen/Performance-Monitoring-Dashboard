@@ -5,6 +5,8 @@ rm(list = ls())
 ##Making sure all packages are up to date 
 ##In recent Rstudio update some packages expect others to be up do date as well
 ##such as "promises" needs to be >= 1.5.0
+##Remove the # in front of lines 10-18 to install packages
+
 #install.packages("shiny")
 #install.packages("ggplot2")
 #install.packages("dplyr")
