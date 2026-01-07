@@ -1,13 +1,27 @@
-# R
+# R / RStudio
+
 .Rhistory
 .RData
+.Ruserdata
 .Rproj.user/
 
-# renv
+
+# Shiny / temp files
+
+*.log
+*.tmp
+tmp/
+temp/
+
+
+# renv (do NOT commit the library)
+
 renv/library/
 renv/python/
 renv/staging/
 
-# OS
+
+# OS 
+
 .DS_Store
 Thumbs.db
